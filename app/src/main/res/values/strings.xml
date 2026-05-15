@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Matru-Sneh</string>
+
+    <string name="dashboard_title">Matru-Sneh</string>
+    <string name="dashboard_subtitle">Pocket Pregnancy Guide (Offline)</string>
+    <string name="lang_toggle_label">Kannada</string>
+
+    <string name="card_kick">Kick Counter</string>
+    <string name="card_checkup">Check-up Countdown</string>
+    <string name="card_nutrition">Nutrition Plate</string>
+    <string name="card_health">Health Alert (Red Flags)</string>
+
+    <string name="tab_kick">Kick</string>
+    <string name="tab_checkup">Check-up</string>
+    <string name="tab_nutrition">Nutrition</string>
+    <string name="tab_health">Health Alert</string>
+
+    <string name="kick_title">Kick Counter</string>
+    <string name="kick_button">Baby Kicked!</string>
+    <string name="kick_total_today">Total kicks today</string>
+    <string name="kick_last_kick">Last kick time</string>
+    <string name="kicks_per_hour_7days">Kicks per Hour (Past 7 Days)</string>
+
+    <string name="checkup_title">Check-up Countdown</string>
+    <string name="last_checkup_date">Last scan / vaccination date (YYYY-MM-DD)</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="save">Save</string>
+    <string name="next_checkup_date">Next check-up date</string>
+    <string name="days_remaining">Days remaining</string>
+    <string name="reminder_note">Reminder will notify 1 day before.</string>
+
+    <string name="nutrition_title">Nutrition Plate (Today)</string>
+    <string name="food_ragi">Ragi</string>
+    <string name="food_greens">Greens</string>
+    <string name="food_pulses">Pulses</string>
+    <string name="food_milk">Milk</string>
+    <string name="food_fruits">Fruits</string>
+    <string name="weekly_tip_title">Weekly baby growth tip</string>
+    <string name="sample_tip">Your baby is growing every week. Eat healthy foods and drink water.</string>
+
+    <string name="health_alert_title">Health Alert (Red Flags)</string>
+    <string name="swelling_level">Swelling level</string>
+    <string name="swelling_low">Low</string>
+    <string name="swelling_medium">Medium</string>
+    <string name="swelling_high">High</string>
+    <string name="symptom_headache">Headache</string>
+    <string name="symptom_blurred">Blurred vision</string>
+    <string name="symptom_bleeding">Bleeding</string>
+    <string name="loud_alert">Loud alert sound</string>
+    <string name="check_now">Check Now</string>
+    <string name="danger_title">Danger Sign</string>
+    <string name="danger_message">Please visit a doctor immediately.</string>
+    <string name="safe_title">No danger sign detected</string>
+    <string name="safe_message">If you feel unwell, please visit a health center.</string>
+
+    <string name="notif_channel_checkup">Check-up reminders</string>
+    <string name="notif_checkup_title">Check-up Reminder</string>
+    <string name="notif_checkup_text">Your check-up is tomorrow. Please visit the clinic.</string>
+
+    <string-array name="swelling_levels">
+        <item>@string/swelling_low</item>
+        <item>@string/swelling_medium</item>
+        <item>@string/swelling_high</item>
+    </string-array>
+
+    <string-array name="weekly_growth_tips">
+        <item>Eat protein and iron-rich foods this week.</item>
+        <item>Drink clean water and rest well.</item>
+        <item>Add greens and fruits for vitamins.</item>
+        <item>Take calcium foods like milk if possible.</item>
+        <item>Keep light activity and avoid heavy work.</item>
+        <item>Attend ANC check-up regularly.</item>
+    </string-array>
+</resources>
+

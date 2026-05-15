@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.matrusneh.app-mergeDebugResources-56:/layout/fragment_health_alert.xml",
+        "source": "com.matrusneh.app-main-59:/layout/fragment_health_alert.xml"
+    },
+    {
+        "merged": "com.matrusneh.app-mergeDebugResources-56:/layout/fragment_nutrition.xml",
+        "source": "com.matrusneh.app-main-59:/layout/fragment_nutrition.xml"
+    },
+    {
+        "merged": "com.matrusneh.app-mergeDebugResources-56:/layout/fragment_dashboard.xml",
+        "source": "com.matrusneh.app-main-59:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.matrusneh.app-mergeDebugResources-56:/layout/fragment_checkup.xml",
+        "source": "com.matrusneh.app-main-59:/layout/fragment_checkup.xml"
+    },
+    {
+        "merged": "com.matrusneh.app-mergeDebugResources-56:/layout/item_kicks_per_hour.xml",
+        "source": "com.matrusneh.app-main-59:/layout/item_kicks_per_hour.xml"
+    },
+    {
+        "merged": "com.matrusneh.app-mergeDebugResources-56:/layout/activity_main.xml",
+        "source": "com.matrusneh.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.matrusneh.app-mergeDebugResources-56:/layout/fragment_kick.xml",
+        "source": "com.matrusneh.app-main-59:/layout/fragment_kick.xml"
+    }
+]

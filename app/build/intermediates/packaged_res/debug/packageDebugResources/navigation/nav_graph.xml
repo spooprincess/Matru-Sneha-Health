@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.matrusneh.ui.dashboard.DashboardFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/action_dashboard_to_kick"
+            app:destination="@id/kickFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_checkup"
+            app:destination="@id/checkupFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_nutrition"
+            app:destination="@id/nutritionFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_health"
+            app:destination="@id/healthAlertFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/kickFragment"
+        android:name="com.matrusneh.ui.kick.KickFragment"
+        android:label="@string/tab_kick" />
+
+    <fragment
+        android:id="@+id/checkupFragment"
+        android:name="com.matrusneh.ui.checkup.CheckupFragment"
+        android:label="@string/tab_checkup" />
+
+    <fragment
+        android:id="@+id/nutritionFragment"
+        android:name="com.matrusneh.ui.nutrition.NutritionFragment"
+        android:label="@string/tab_nutrition" />
+
+    <fragment
+        android:id="@+id/healthAlertFragment"
+        android:name="com.matrusneh.ui.health.HealthAlertFragment"
+        android:label="@string/tab_health" />
+
+</navigation>
+
